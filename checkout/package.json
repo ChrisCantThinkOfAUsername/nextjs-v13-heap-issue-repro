@@ -1,0 +1,24 @@
+{
+  "name": "checkout-13",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next && next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@module-federation/nextjs-mf": "7.0.8",
+    "@mui/material": "^5.14.17",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "next": "13.2.4",
+    "nextjs-shared": "file:../shared",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "webpack": "5.80.0",
+    "zxcvbn": "^4.4.2"
+  }
+}
